@@ -43,6 +43,7 @@ void main() {
   );
 }
 
+Note- center widgets ke kuch properties hote hai jaise ki child. jisko center karna hai us widgets ko hum child properties ke andar likhte hai
   
 Center(
   key: ValueKey('center_example'),
