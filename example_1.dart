@@ -44,3 +44,9 @@ void main() {
 }
 
   
+Center(
+  key: ValueKey('center_example'),
+  widthFactor: 2.0,
+  heightFactor: 2.0,
+  child: Text('Centered Text'),
+)
