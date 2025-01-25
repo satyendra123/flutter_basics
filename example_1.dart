@@ -45,9 +45,27 @@ void main() {
 
 Note- center widgets ke kuch properties hote hai jaise ki child. jisko center karna hai us widgets ko hum child properties ke andar likhte hai
   
-Center(
+Center(                                                                                
   key: ValueKey('center_example'),
   widthFactor: 2.0,
   heightFactor: 2.0,
   child: Text('Centered Text'),
 )
+
+  similar things in html and css we will write something like this
+  <div class="center-container">
+  <span class="centered-text">Centered Text</span>
+</div>
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200%; /* Equivalent to widthFactor: 2.0 */
+  height: 200%; /* Equivalent to heightFactor: 2.0 */
+  background-color: lightgray; /* For visibility of the container */
+}
+
+.centered-text {
+  font-size: 16px;
+  color: black;
+}
